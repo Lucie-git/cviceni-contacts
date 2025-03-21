@@ -40,3 +40,29 @@
 }
 
 /* ----Tvoje styly----- */
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1;
+  flex-shrink: 2; */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
